@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Name Styling */
+h1:first-of-type {
+    font-size: 28px;
+    color: #222;
+    text-align: center; /* Center align for the name */
+    margin-bottom: 10px;
+}
+
+/* Other Headings */
+h1 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+    text-align: left; /* Left align for other headings */
+}
+
+/* Profile Picture */
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+/* Section Divider */
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+/* Text Content */
+p {
+    line-height: 1.5;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Lists */
+ul {
+    padding: 10;
+    margin: 10px 0;
+    list-style-type: square;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
+img[alt="SECVIT CERTIFICATE"] {
+    display: block;
+    margin: 10px 0;
+    width: 200px;  
+    height: 120px; 
+    margin-bottom: 10px; 
+    border-radius: 0; 
+}
+
+
+.secvit-text {
+    clear: both; /* Ensures the text is below the floated image */
+    text-align: left; /* Aligns the text to the left */
+}
+
+
